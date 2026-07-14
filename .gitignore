@@ -1,0 +1,18 @@
+# Ignore python virtual environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Ignore massive data tracking folders and model checkpoints
+data/
+outputs/
+checkpoints/
+Archive/
+Archive.zip
+.cache/
+
+# Ignore sensitive system configuration files
+.env
+.DS_Store
